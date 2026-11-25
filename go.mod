@@ -3,6 +3,7 @@ module github.com/silverton-io/buz
 go 1.19
 
 require (
+	cloud.google.com/go/bigquery v1.51.1
 	cloud.google.com/go/pubsub v1.30.0
 	cloud.google.com/go/storage v1.29.0
 	github.com/apex/gateway/v2 v2.0.0
@@ -17,20 +18,20 @@ require (
 	github.com/elastic/go-elasticsearch/v8 v8.1.0
 	github.com/gin-contrib/pprof v1.4.0
 	github.com/gin-contrib/timeout v0.0.3
-	github.com/gin-gonic/gin v1.9.0
+	github.com/gin-gonic/gin v1.9.1
 	github.com/google/uuid v1.3.0
 	github.com/minio/minio-go/v7 v7.0.34
 	github.com/nats-io/nats.go v1.15.0
 	github.com/rs/zerolog v1.26.1
 	github.com/santhosh-tekuri/jsonschema/v5 v5.3.0
 	github.com/spf13/viper v1.10.1
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.3
 	github.com/tidwall/gjson v1.13.0
 	github.com/twmb/franz-go v1.4.0
 	github.com/twmb/franz-go/pkg/kadm v0.0.0-20220301200403-ffaee5b878c6
 	github.com/ulule/limiter/v3 v3.9.0
 	go.mongodb.org/mongo-driver v1.8.4
-	golang.org/x/net v0.9.0
+	golang.org/x/net v0.10.0
 	gorm.io/datatypes v1.0.6
 	gorm.io/driver/clickhouse v0.3.1
 	gorm.io/driver/mysql v1.3.3
@@ -40,7 +41,6 @@ require (
 
 require (
 	cloud.google.com/go v0.110.1 // indirect
-	cloud.google.com/go/bigquery v1.51.1 // indirect
 	cloud.google.com/go/compute v1.19.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v1.0.0 // indirect
@@ -61,7 +61,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.9.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.14.0 // indirect
 	github.com/aws/smithy-go v1.11.0 // indirect
-	github.com/bytedance/sonic v1.8.8 // indirect
+	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/cloudflare/golz4 v0.0.0-20150217214814-ef862a3cdc58 // indirect
@@ -69,10 +69,11 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/elastic/elastic-transport-go/v8 v8.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.13.0 // indirect
+	github.com/go-playground/validator/v10 v10.14.0 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
@@ -105,7 +106,7 @@ require (
 	github.com/leodido/go-urn v1.2.4 // indirect
 	github.com/lib/pq v1.10.4 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
-	github.com/mattn/go-isatty v0.0.18 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/minio/asm2plan9s v0.0.0-20200509001527-cdd76441f9d8 // indirect
 	github.com/minio/c2goasm v0.0.0-20190812172519-36a3d3bbc4f3 // indirect
 	github.com/minio/md5-simd v1.1.2 // indirect
@@ -117,7 +118,7 @@ require (
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
-	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
+	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pierrec/lz4/v4 v4.1.17 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -143,7 +144,7 @@ require (
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
-	golang.org/x/crypto v0.8.0 // indirect
+	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
 	golang.org/x/sync v0.2.0 // indirect
