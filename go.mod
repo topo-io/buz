@@ -3,6 +3,7 @@ module github.com/silverton-io/buz
 go 1.19
 
 require (
+	cloud.google.com/go/bigquery v1.51.1
 	cloud.google.com/go/pubsub v1.30.0
 	cloud.google.com/go/storage v1.29.0
 	github.com/apex/gateway/v2 v2.0.0
@@ -40,7 +41,6 @@ require (
 
 require (
 	cloud.google.com/go v0.110.1 // indirect
-	cloud.google.com/go/bigquery v1.51.1 // indirect
 	cloud.google.com/go/compute v1.19.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v1.0.0 // indirect
@@ -123,7 +123,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rs/xid v1.4.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
-	github.com/sirupsen/logrus v1.9.0 // indirect
+	github.com/sirupsen/logrus v1.9.1 // indirect
 	github.com/spf13/afero v1.8.0 // indirect
 	github.com/spf13/cast v1.4.1 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
